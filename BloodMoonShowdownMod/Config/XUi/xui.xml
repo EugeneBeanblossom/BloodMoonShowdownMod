@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<beans>
+  <append xpath="/xui/ruleset[@name='default']">
+    <window_group name="showdown" actionSet="false">
+      <window name="windowShowdown" anchor="LeftBottom"></window>
+    </window_group>
+  </append>
+</beans>

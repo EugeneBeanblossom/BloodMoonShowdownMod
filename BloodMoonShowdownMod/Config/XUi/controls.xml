@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<beans>
+  <append xpath="/controls">
+    <showdown_player>
+      <rect depth="1" width="300" height="46" pos="0,0" alternating_color="[darkestGrey]" controller="ShowdownPlayer, BloodMoonShowdownMod">
+        <sprite name="background" color="[darkGrey]" height="42" width="300" pos="0,-2" type="sliced" />
+
+        <rect depth="1" name="rank" width="16" height="42" pos="0,-23">
+          <label depth="1" name="rankText" pos="4,0" height="38" text="" font_size="26" justify="left" pivot="left" />
+        </rect>
+
+        <rect depth="1" name="steamId" width="146" height="42" pos="24,-23">
+          <label depth="1" name="steamIdText" pos="0,0" height="38" text="" font_size="26" pivot="left" />
+        </rect>
+
+        <rect depth="1" name="kills" width="130" height="42" pos="170,-23">
+          <label depth="1" name="killsText" pos="-4,0" height="38" text="" font_size="26" justify="right" pivot="left" />
+        </rect>
+      </rect>
+    </showdown_player>
+  </append>
+</beans>

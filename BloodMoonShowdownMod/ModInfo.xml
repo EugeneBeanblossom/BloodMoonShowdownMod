@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <ModInfo>
+    <Name value="Blood Moon Showdown Mod" />
+    <Description value="Ranks players on blood moons" />
+    <Author value="EB" />
+    <Version value="1.0.0.0" />
+    <Website value="" />
+  </ModInfo>
+</xml>

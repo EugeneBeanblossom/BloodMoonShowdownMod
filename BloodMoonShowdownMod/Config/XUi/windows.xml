@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<beans>
+  <append xpath="/windows">
+    <window name="windowShowdown" anchor="Right" pos="200,268" width="300" height="260" controller="ShowdownWindow, BloodMoonShowdownMod">
+      <sprite depth="1" name="border" color="0,0,0,255" pos="0,-32" width="300" height="226" type="sliced" fillcenter="false"/>
+      <label depth="2" pos="150, 0" width="300" height="30" text="Blood Moon Showdown" color="255,0,0,255" font_size="28" pivot="center" effect="outline" upper_case="true" justify="center"/>
+      <grid name="showdownPlayersList" rows="5" cols="1" pos="0,-30" width="300" height="230" cell_width="300" cell_height="46" repeat_content="true" arrangement="vertical" controller="ShowdownPlayersList, BloodMoonShowdownMod">
+        <showdown_player></showdown_player>
+      </grid>
+    </window>
+  </append>
+</beans>
